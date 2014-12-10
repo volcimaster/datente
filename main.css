@@ -1,0 +1,173 @@
+/* stylesheet for datente.com news aggregation service
+   written by Warren Myers for datente.com
+   written 24 Jan 2012
+*/
+
+a{
+    text-decoration: none;
+    color: #eeeeee;
+}
+
+a:visited{
+    color: #eeeeee;
+}
+
+body{
+    text-align: center;
+    background-color: #444444;
+    color: #eeeeee;
+    font-size: 10pt;
+    font-family: verdana sans-serif;
+    padding: 0px;
+    margin: 0px;
+}
+
+h4{
+    text-align: center;
+    font-size: 10pt;
+    font-family: monospace;
+    border-bottom: 1px black solid;
+    background-color: white;
+    color: black;
+    padding: 0px;
+    margin: 0px;
+}
+
+li{
+    list-style: none;
+    padding: 3px;
+    margin: 0px;
+    font-weight: bold;
+    font-size: 8pt;
+}
+
+p.header{
+    text-align: center;
+    font-size: 40pt;
+/*    font-weight: bold;/**/
+    font-family: Lucida Sans Console, monospace;
+    padding: 0px;
+    margin: 0px;
+}
+
+p.subtitle{
+    text-align: center;
+    font-size: 10pt;
+    font-weight: 600;
+    font-family: cursive;
+    padding: 0px;
+    margin: 0px;
+}
+
+ul{
+    padding: 0px 1em 0px 1em;
+    margin: 1em;
+}
+
+#amzn{
+/*    width: 120px;
+    height: 90px;*/
+    margin: 0px;
+    padding: 0px;
+/*    float: right;/**/
+    position: absolute;
+    right: 0px;
+    top: 10em;
+}
+
+#bottom{
+    clear: all;
+    width: 100%;
+    float: left;
+    font-size: 8pt;
+    font-family: serif;
+    color: red;
+    background-color: white;
+    text-align: center;
+}
+
+#bottom a{
+    padding: 0px;
+    margin: 0px;
+    text-decoration: none;
+    color: black;
+}
+
+#bottom a:hover, a:visited:hover{
+    color: black;
+}
+
+#bottom a:visited{
+    color: black;
+}
+
+#cabinet{
+    width: 86%;
+    margin-right: 13.5em;
+    margin-left: auto;
+}
+
+#directory{
+    text-align: center;
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    font-weight: bold;
+    font-size: 14pt;
+    background-color: black;
+    color: white;
+    clear: all;
+    border-top: 5px solid #444444;
+}
+
+#directory a{
+    padding: 0px;
+    margin: 0px;
+    font-size: 10pt;
+    text-decoration: none;
+    color: white;
+}
+
+#directory a:hover, a:visited:hover{
+    color: white;
+}
+
+#directory a:visited{
+    color: #dddddd;
+}
+
+#page{
+    margin: 0px;
+    padding: 0px;
+    background-color: black;
+}
+
+#rss{
+    text-align: left;
+    background-color: #669966;
+    border: 1px solid black;
+    float: right;
+    margin: 2px;
+    margin-top: 0px;
+    padding-top: 0px;
+    height: 34em;
+    width: 24%;
+    font-size: .95em;
+    margin-left: 1px;
+    margin-right: 1px;
+}
+
+#rss a{
+    padding: 0px;
+    margin: 0px;
+    text-decoration: none;
+    color: #330033;
+}
+
+#rss a:hover, a:visited:hover{
+    color: white;
+}
+
+#rss a:visited{
+    color: #dddddd;
+}
